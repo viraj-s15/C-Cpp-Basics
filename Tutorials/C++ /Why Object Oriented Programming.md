@@ -2,13 +2,9 @@
 
 ## <b> What advantages does it have over functional based programming?
 
----
-
 ### These are few of the questions that one may have in mind when starting out with objext oriented programming in C++.
 
 ## <b> Here are the answers to a few of those questions ->
-
----
 
 <font size="3">
 One may know basic data types like int, long, float, double and string. These data types work perfectly fine till one may have to define something
@@ -17,8 +13,6 @@ gender, etc. This is quite a difficult task using primitive data types. Hence Ob
 custom/user defined data types along with functionality related to those data types. This way, it is easier to manage and maintain code,
 it promotes reusability of code and makes it easy for one to change one particular function of the code without affecting the rest of it.
 <font>
-
----
 
 ## <b> Object Oriented Programming (OOP) has 4 pillars:
 
