@@ -25,8 +25,8 @@ it promotes reusability of code and makes it easy for one to change one particul
 </font>
 <br>
 
-<font size = "3">
+<font size = "4">
 <b>
-Just keep these terms in the back of your head, they will be explained as and when needed.
+Just keep these terms in the back of your head, they will be explained as and when needed. Feel free to clone the repo and edit the code as you go through it.
 </b>
 </font>
