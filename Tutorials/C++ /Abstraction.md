@@ -4,9 +4,9 @@
 
 <font size = "4"> 
 Abstraction is a term that you may have seen in the very first file that you read. It is one of the pillars of Object Oriented Programming, it is an extremely important feature of the same. It refers to the hiding of unnecessary data from the user. Let's consider a real life example. Imagine a person using a mobile phone, he clicks the google chrome app and it opens. The user knows that he has clicked an icon and the app has opened. However, the user does not know the process that goes on behind the opening of the app. All he knows is that pressing the icon will open the app. That is the only thing a user needs to know.
-<br> 
 </font>
-
+<br>
+<br>
 <b> <font size="8"> How is abstraction implemented in C++? </b></font>
 
 ---
