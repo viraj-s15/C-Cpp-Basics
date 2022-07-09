@@ -1,7 +1,6 @@
 // Question : Find the frequecy of digits occuring in a string entered by the user
-/*
-We are going to include some header files into our program so we can use some pre defined functions such as scanf(), printf(), strlen(), malloc() etc.
-*/
+// We are going to include some header files into our program so we can use some pre defined functions such as scanf(), printf(), strlen(), malloc() etc.
+
 #include <stdio.h>  //For Input and Output
 #include <string.h> //For String functions
 #include <stdlib.h> //For Dynamic Memory Allocation, mainly calloc(), malloc(), realloc(), free() etc.
