@@ -17,8 +17,11 @@ These modifiers help us hide the data that is not useful to the user of the appl
 There are three types of access modifiers:<br>
 - Private <br>
 - Public<br>
-- Protected <br>
+- Protected 
+  <br>
+  <br>
 Data memebrs such as the attributes of the human inthe previous file should be put under the private access modifier. Everything else goes under public. Here is an example:
+<br>
 
 ```c++
 Class Human {
