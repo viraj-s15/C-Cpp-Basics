@@ -1,3 +1,8 @@
+/*
+ *  This program demonstrates usage of DMA or Dynamic Memory Allocation and ASCII values.
+ *  @author Suteerth Subramaniam
+ */
+
 // Question : Find the frequecy of digits occuring in a string entered by the user
 // We are going to include some header files into our program so we can use some pre defined functions such as scanf(), printf(), strlen(), malloc() etc.
 
