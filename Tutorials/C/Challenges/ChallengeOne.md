@@ -1,7 +1,7 @@
 # Challenge One
 ## Problem Description 
 You need to consider an **unordered list** and perform the following operations :
->Searchiing
+>Searching
 
 >Insertion (Index and element provided)
 

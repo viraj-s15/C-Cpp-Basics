@@ -7,6 +7,7 @@ void linearsearch(int *, int, int);
 void insertion(int *, int, int, int);
 void deletion(int *, int, int);
 void display(int *, int);
+void display_two(int*, int);
 int main()
 {
     int *list = NULL; // We initialize our array pointer to NULL first
@@ -56,8 +57,8 @@ int main()
                 printf("Enter valid index! : ");
                 scanf("%d", &value2);
             }
-            deletion(list, n, value2);
             n--; // Size n is changed dynamically throughout the program
+            deletion(list, n, value2);
             break;
         case 3:
             printf("\n");
@@ -94,7 +95,7 @@ void display(int *array, int size)
 void insertion(int *array, int size, int input, int index)
 {   
     //Size we are taking in incremented size (n), we proceed to directly reallocate to accomodate one more element
-    array = realloc(array, size);
+    array = realloc(array, size*sizeof(int));
     for (int i = size - 1; i > index; i--)
     {
         array[i] = array[i - 1]; // We shift all elements to right (i-1 becomes i) creating space at index we want to insert element at
@@ -105,12 +106,20 @@ void deletion(int *array, int size, int index)
 {   
     // Since we are taking in n value without deletion, we perform realloc with size - 1
     printf("\nDeleted element %d from index %d\n",*(array+index),index);
-    for (int i = index; i < size - 1; i++)
+    for (int i = index; i <= size  ; i++)
     {
-        *(array + i) = *(array + i + 1); // We shift all elements to left (i becomes i-1) consuming the index in question
+        array[i]=array[i+1]; // We shift all elements to left (i becomes i-1) consuming the index in question
     }
-    array = realloc(array, size-1);
+    array = realloc(array, size*sizeof(int));
     
+}
+void display_two(int *array, int size)
+{   
+    // Simple for loop to display all elements in the array
+    for (int i = 0; i < size; i++)
+    {
+        printf("Index = %d\n", *(array + i));
+    }
 }
 void linearsearch(int *array, int size, int val)
 {   
