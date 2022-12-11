@@ -1,3 +1,5 @@
 # Basic-C-CPP-Codes
-### This repo is mainly a resource that students could use to understand the fundamental concepts of the C/C++ programming language
-### We will both be updating this over time
+
+<font size=5>
+The main purpose of this repository is to provide an easy learning resource for C/C++ basics. All the programming
+fundamentals have been covered in this repository. The C++ portion of the repository has been completed with two challenges which are to be attempted as the very end. The c portion of the repository is being worked on by @iamsuteerth.
