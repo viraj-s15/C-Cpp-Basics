@@ -1,4 +1,5 @@
-# Basic-C-CPP-Codes
+# C-Cpp-Basics
+
 
 <font size=5>
 The main purpose of this repository is to provide an easy learning resource for C/C++ basics. All the programming
